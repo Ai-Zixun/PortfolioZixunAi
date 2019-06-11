@@ -26,20 +26,20 @@
 </head>
 
 <body>
+  <!-- NavBar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
     <a class="navbar-brand" href="#">Zixun Ai</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">About Me</a>
+          <a class="nav-link" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Education</a>
@@ -59,25 +59,57 @@
       </ul>
     </div>
   </nav>
-  <section id="Home">
+
+  <!-- Home Section -->
+  <section id="home">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div id="content">
+          <div id="home-content">
             <h1>Zixun Ai</h1>
             <hr>
             <h3>Software Engineer</h3>
-            <a class="btn btn-outline-dark btn-lg" id="resume" target=”_blank” href="files/Résumé_Tech_4.3_US_ENG_USLetter.pdf">Résumé PDF</a>
+            <a class="btn btn-outline-dark btn-lg" id="resume" target=”_blank”
+              href="files/Résumé_Tech_4.3_US_ENG_USLetter.pdf">Résumé PDF</a>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
+  <!-- Navbar Section -->
+  <section id="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="about-me-content">
+            <h4>About Me</h4>
+            <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h5>Personal Interest</h5>
+          <ul>
+            <li>I love flying! I acquired my FAA private pilot certificate in 2018.</li>
+            <li>I am learning Cantonese and Japanese.</li>
+            <li>I have traveled to America, Asia, Africa, and Europe.</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h5>My Story</h5>
+          <p>I love programming! After completing my computer science bachelor’s degree, I am currently traveling and
+            studying in Europe before eventually dedicate all of my energy onto my beloved software development. While
+            working on several personal projects, I am planning to seek a full-time software engineer job.</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img id="about-me-image" src="pic/about_me.jpg" alt="Zixun Ai Image" height="440">
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- 
-  </section>
-  <section id="AboutMe">
-
-  </section>
   <section id="Education">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Venenatis a condimentum vitae sapien pellentesque habitant morbi. Ultricies lacus sed turpis
@@ -148,7 +180,8 @@
   <section id="Contact">
 
   </section>
-  -->  
+  -->
 
 </body>
+
 </html>
