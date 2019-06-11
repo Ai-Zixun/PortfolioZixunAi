@@ -1,14 +1,9 @@
-b {
-    font-weight: 700;
-}
-
 nav {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
 section {
-    height: 100vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
@@ -19,8 +14,20 @@ h1 {
     font-size: 120%;
 }
 
-h4 {
+h2 {
     text-transform: uppercase;
+}
+
+#resume {
+    margin-top: 1em
+}
+
+#home {
+    background: url(../pic/index_home.jpg); 
+    /* Photo by Jeremy Weber on Unsplash; Unsplash Free-Use License */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 #home-content {
@@ -28,20 +35,13 @@ h4 {
 	padding-top: 25%;
 }
 
+#about-me {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
 #about-me-content {
 	text-align: center;
-	padding-top: 10%;
-}
-
-#home {
-    background: url(../pic/index_home.jpg); 
-    /* Photo by Jeremy Weber on Unsplash; Unsplash Free-Use License */
-    background-size: cover;
-	background-position: center;
-}
-
-#resume {
-    margin-top: 1em
 }
 
 #about-me-image{
@@ -50,4 +50,24 @@ h4 {
     margin-right: auto;
     width: 80%;
     height: auto;
+}
+
+#education {
+    padding-top: 10vh;
+    padding-bottom: 15vh;    
+    background-color: #F2F4F6;
+    text-align: center;
+}
+
+#education-logo-image {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+
+#skills {
+    padding-top: 10vh;
+    padding-bottom: 15vh;    
+    text-align: center;
 }
