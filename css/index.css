@@ -79,3 +79,17 @@ h2 {
     text-align: center;
 }
 
+#experience {
+    padding-top: 10vh;
+    padding-bottom: 15vh;    
+    text-align: center;
+}
+
+#contact {
+    padding-top: 10vh;
+    padding-bottom: 15vh;    
+    background-color: #F2F4F6;
+    text-align: center;
+}
+
+
